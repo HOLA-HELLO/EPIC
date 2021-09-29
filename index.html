@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/addons/p5.dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/addons/p5.sound.min.js"></script>
+<script src="./p5.play.js"></script>
+<script src="Game.js"></script>
+<script src="Player.js"></script>
+<script src="Form.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8" />
+<script src="https://www.gstatic.com/firebasejs/8.8.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.8.0/firebase-database.js"></script>
+<script>
+var firebaseConfig = {
+  apiKey: "AIzaSyDlpRZA5SUYpxqOsufXYlFazuJVkO4kqCI",
+  authDomain: "pelota-sincronizada.firebaseapp.com",
+  databaseURL: "https://pelota-sincronizada-default-rtdb.firebaseio.com",
+  projectId: "pelota-sincronizada",
+  storageBucket: "pelota-sincronizada.appspot.com",
+  messagingSenderId: "986462152666",
+  appId: "1:986462152666:web:053b45ec69f08aee5602e3"
+};
+
+// Initialize Firebase
+firebase.initializeApp(firebaseConfig);
+</script>
+  </head>
+  <body>
+      <script src="sketch.js"></script>
+  </body>
+</html>
